@@ -121,5 +121,3 @@ forge/
 - **Claude Code** — agents, skills, hooks, MCP integration
 - **FastMCP** (Python) — MCP server SDK
 - **Python 3.13** — stdlib + httpx for generated servers
-
-Built for the "Built with Opus 4.6: a Claude Code hackathon" (Feb 10-16, 2026).
