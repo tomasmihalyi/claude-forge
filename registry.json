@@ -1,0 +1,37 @@
+{
+  "servers": [
+    {
+      "name": "world-clock",
+      "description": "Get the current date and time in any timezone worldwide, and list available IANA timezones.",
+      "tools": [
+        "get_time",
+        "list_timezones"
+      ],
+      "created_at": "2026-02-11T00:04:48",
+      "forged_for": "What time is it in Tokyo?",
+      "uses": 3
+    },
+    {
+      "name": "csv-analyzer",
+      "description": "Load, summarize, and aggregate CSV files. Group by any columns with sum/count/mean/min/max operations.",
+      "tools": [
+        "summarize_csv",
+        "aggregate_csv"
+      ],
+      "created_at": "2026-02-11T00:10:53",
+      "forged_for": "Analyze demo/sales.csv — give me a summary of sales by product and region",
+      "uses": 1
+    },
+    {
+      "name": "hacker-news",
+      "description": "Fetch trending and top stories from Hacker News, and get detailed info on any story by ID.",
+      "tools": [
+        "get_top_stories",
+        "get_story_details"
+      ],
+      "created_at": "2026-02-11T00:12:38",
+      "forged_for": "What's trending on Hacker News right now?",
+      "uses": 2
+    }
+  ]
+}

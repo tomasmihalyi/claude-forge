@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(.venv/bin/python *)",
+      "Bash(uv *)",
+      "Bash(claude mcp *)",
+      "Bash(chmod *)",
+      "Bash(date *)",
+      "Read",
+      "Write",
+      "Edit"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$TOOL_INPUT\" | grep -q 'validate_server.py'; then echo '[Forge] Server validation completed' >&2; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

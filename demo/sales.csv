@@ -1,0 +1,16 @@
+date,product,region,units,revenue
+2026-01-01,Widget A,North,150,4500.00
+2026-01-01,Widget B,South,89,2670.00
+2026-01-01,Widget A,East,200,6000.00
+2026-01-02,Widget C,North,45,2250.00
+2026-01-02,Widget A,West,175,5250.00
+2026-01-02,Widget B,North,120,3600.00
+2026-01-03,Widget A,South,95,2850.00
+2026-01-03,Widget C,East,60,3000.00
+2026-01-03,Widget B,West,110,3300.00
+2026-01-04,Widget A,North,180,5400.00
+2026-01-04,Widget C,South,70,3500.00
+2026-01-04,Widget B,East,135,4050.00
+2026-01-05,Widget A,West,160,4800.00
+2026-01-05,Widget B,South,95,2850.00
+2026-01-05,Widget C,North,55,2750.00

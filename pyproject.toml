@@ -1,0 +1,9 @@
+[project]
+name = "forge"
+version = "0.1.0"
+description = "Self-extending Claude Code agent that builds its own MCP tools"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]",
+    "httpx",
+]
